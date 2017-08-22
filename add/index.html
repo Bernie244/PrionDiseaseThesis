@@ -14,7 +14,7 @@
     <link rel="mask-icon" href="/PrionDiseaseThesis/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
   </head>
-  <body class="home">
+  <body>
     <header>
       <div id="particles-js"></div>
       <div class="header-content">
@@ -30,7 +30,7 @@
       </div>
     </header>
     <div class="back"><a href="/PrionDiseaseThesis/">Back to homepage</a></div>
-    <form class="form">
+    <div class="form">
       <div class="form-element">
         <label>Title</label>
         <input type="text" placeholder="Transcription profiling of sheep prion accumulating ovine microglia">
@@ -81,6 +81,10 @@
         <label>Email</label>
         <input type="email" placeholder="Mail address">
       </div>
+      <div class="form-element">
+        <label>Citations</label>
+        <input type="email" placeholder="Stanton JB, Knowles DP, Call DR, Mathison BA et al. Limited transcriptional response of ovine microglia to prion accumulation. Biochem Biophys Res Commun 2009 Aug 21">
+      </div>
       <div class="form-element last drop-holder">
         <label>Files</label>
         <div class="dropper">
@@ -88,9 +92,12 @@
         </div>
       </div>
       <div class="button-holder clearfix">
-        <button type="submit">Upload dataset</button>
+        <button type="normal">Upload dataset</button>
       </div>
-    </form>
+      <div class="completed"><i class="fa fa-check-circle" aria-hidden="true"></i>
+        <div class="send">Dataset has been sent<span>Status: awaiting validation</span></div>
+      </div>
+    </div>
     <footer>
       <ul class="mainMenu">
         <li>&copy; 2017 Prion Datasets</li>
